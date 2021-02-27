@@ -1,1 +1,1 @@
-# paint-ncurses
+# Paint ncurses edition
