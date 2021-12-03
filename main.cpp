@@ -73,7 +73,8 @@ protected:
         }
         else if (bstate == 0x00200000)
         {
-            rectColor--;
+            if (rectColor != 0)
+                rectColor--;
         }        
         if (draw) {
             p1.x = x;
